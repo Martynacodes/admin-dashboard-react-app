@@ -15,7 +15,9 @@ function App() {
           <div className="menuContainer">
             <Menu />
           </div>
-          <div className="contentContainer"></div>
+          <div className="contentContainer">
+            <Outlet />
+          </div>
         </div>
         <Footer />
       </div>
@@ -24,15 +26,21 @@ function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <Home />,
-    },
-    {
-      path: "users",
-      element: <Users />,
-    },
-    {
-      path: "products",
-      element: <Products />,
+      element: <Layout />,
+      children: [
+        {
+          path: "/",
+          element: <Home />,
+        },
+        {
+          path: "/users",
+          element: <Users />,
+        },
+        {
+          path: "/products",
+          element: <Products />,
+        },
+      ],
     },
   ]);
 
