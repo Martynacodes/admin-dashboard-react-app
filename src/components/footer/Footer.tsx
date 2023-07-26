@@ -3,7 +3,8 @@ import "./footer.scss";
 const Footer = () => {
   return (
     <div className="footer">
-      <h1>Footer</h1>
+      <span>adminProX</span>
+      <span>Martynacodes Admin App</span>
     </div>
   );
 };
