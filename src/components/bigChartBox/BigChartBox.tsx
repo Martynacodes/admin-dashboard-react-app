@@ -17,39 +17,39 @@ const data = [
   },
   {
     name: "Mon",
-    books: 3000,
-    clothes: 1398,
-    electronic: 2210,
+    books: 2000,
+    clothes: 1098,
+    electronic: 2410,
   },
   {
     name: "Tue",
     books: 2000,
-    clothes: 9800,
+    clothes: 1080,
     electronic: 2290,
   },
   {
     name: "Wed",
     books: 2780,
     clothes: 3908,
-    electronic: 2000,
+    electronic: 900,
   },
   {
     name: "Thu",
     books: 1890,
-    clothes: 4800,
+    clothes: 4200,
     electronic: 2181,
   },
   {
     name: "Fri",
-    books: 2390,
-    clothes: 3800,
+    books: 3990,
+    clothes: 4800,
     electronic: 2500,
   },
   {
     name: "Sat",
     books: 3490,
     clothes: 4300,
-    electronic: 2100,
+    electronic: 3100,
   },
 ];
 
@@ -75,22 +75,22 @@ const BigChartBox = () => {
               type="monotone"
               dataKey="electronic"
               stackId="1"
-              stroke="#8884d8"
-              fill="#8884d8"
+              stroke="#c0355f"
+              fill="#c0355f"
             />
             <Area
               type="monotone"
               dataKey="clothes"
               stackId="1"
-              stroke="#82ca9d"
-              fill="#82ca9d"
+              stroke="#27cdf2"
+              fill="#27cdf2"
             />
             <Area
               type="monotone"
               dataKey="books"
               stackId="1"
-              stroke="#ffc658"
-              fill="#ffc658"
+              stroke="#0798f2"
+              fill="#0798f2"
             />
           </AreaChart>
         </ResponsiveContainer>

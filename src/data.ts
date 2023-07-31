@@ -118,62 +118,62 @@ export const menu = [
 export const topDealUsers = [
   {
     id: 1,
-    img: "https://images.pexels.com/photos/8405873/pexels-photo-8405873.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    username: "Elva McDonald",
-    email: "elva@gmail.com",
-    amount: "3.668",
+    img: "https://images.pexels.com/photos/7275385/pexels-photo-7275385.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    username: "Chantelle Parks",
+    email: "ch.parks@gmail.com",
+    amount: "3.755",
   },
   {
     id: 2,
-    img: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    username: "Linnie Nelson",
-    email: "linnie@gmail.com",
-    amount: "3.256",
+    img: "https://images.pexels.com/photos/6973948/pexels-photo-6973948.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    username: "Stephanie Lin",
+    email: "steph.lin@gmail.com",
+    amount: "3.297",
   },
   {
     id: 3,
-    img: "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    username: "Brent Reeves",
-    email: "brent@gmail.com",
+    img: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    username: "Ignacio Lopez",
+    email: "ignacio@gmail.com",
     amount: "2.998",
   },
   {
     id: 4,
-    img: "https://images.pexels.com/photos/733872/pexels-photo-733872.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    username: "Adeline Watson",
-    email: "adeline@gmail.com",
-    amount: "2.512",
+    img: "https://images.pexels.com/photos/5330469/pexels-photo-5330469.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    username: "Kristin Anderson",
+    email: "kristin@gmail.com",
+    amount: "2.612",
   },
   {
     id: 5,
-    img: "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    username: "Juan Harrington",
-    email: "juan@gmail.com",
-    amount: "2.134",
+    img: "https://images.pexels.com/photos/4171757/pexels-photo-4171757.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    username: "Odette Price",
+    email: "odette@gmail.com",
+    amount: "2.243",
   },
   {
     id: 6,
-    img: "https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    username: "Augusta McGee",
-    email: "augusta@gmail.com",
-    amount: "1.932",
+    img: "https://images.pexels.com/photos/6206939/pexels-photo-6206939.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    username: "Nikola Lukas",
+    email: "nick@gmail.com",
+    amount: "1.875",
   },
   {
     id: 7,
-    img: "https://images.pexels.com/photos/874158/pexels-photo-874158.jpeg?auto=compress&cs=tinysrgb&w=1600",
-    username: "Angel Thomas",
-    email: "angel@gmail.com",
-    amount: "1.560",
+    img: "https://images.pexels.com/photos/8129903/pexels-photo-8129903.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    username: "Patricia Hart",
+    email: "pathart@gmail.com",
+    amount: "1.499",
   },
 ];
 
 export const chartBoxUser = {
-  color: "#8884d8",
-  icon: "/userIcon.svg",
-  title: "Total Users",
-  number: "11.238",
+  color: "#eaf205",
+  icon: "/conversionIcon.svg",
+  title: "All Users",
+  number: "10.537",
   dataKey: "users",
-  percentage: 45,
+  percentage: 38,
   chartData: [
     { name: "Sun", users: 400 },
     { name: "Mon", users: 600 },
@@ -186,12 +186,12 @@ export const chartBoxUser = {
 };
 
 export const chartBoxProduct = {
-  color: "skyblue",
+  color: "#27cdf2",
   icon: "/productIcon.svg",
-  title: "Total Products",
-  number: "238",
+  title: "All Products",
+  number: "315",
   dataKey: "products",
-  percentage: 21,
+  percentage: 17,
   chartData: [
     { name: "Sun", products: 400 },
     { name: "Mon", products: 600 },
@@ -203,12 +203,12 @@ export const chartBoxProduct = {
   ],
 };
 export const chartBoxRevenue = {
-  color: "teal",
-  icon: "/revenueIcon.svg",
-  title: "Total Revenue",
-  number: "$56.432",
+  color: "#eaf205",
+  icon: "/conversionIcon.svg",
+  title: "Overall Revenue",
+  number: "$48.654",
   dataKey: "revenue",
-  percentage: -12,
+  percentage: -13,
   chartData: [
     { name: "Sun", revenue: 400 },
     { name: "Mon", revenue: 600 },
@@ -220,9 +220,9 @@ export const chartBoxRevenue = {
   ],
 };
 export const chartBoxConversion = {
-  color: "gold",
-  icon: "/conversionIcon.svg",
-  title: "Total Ratio",
+  color: "#27cdf2",
+  icon: "/productIcon.svg",
+  title: "Overall Ratio",
   number: "2.6",
   dataKey: "ratio",
   percentage: 12,
@@ -238,8 +238,8 @@ export const chartBoxConversion = {
 };
 
 export const barChartBoxRevenue = {
-  title: "Profit Earned",
-  color: "#8884d8",
+  title: "Earned Profit",
+  color: "#c0355f",
   dataKey: "profit",
   chartData: [
     {
@@ -274,8 +274,8 @@ export const barChartBoxRevenue = {
 };
 
 export const barChartBoxVisit = {
-  title: "Total Visit",
-  color: "#FF8042",
+  title: "Overall Visits",
+  color: "#27cdf2",
   dataKey: "visit",
   chartData: [
     {
@@ -568,8 +568,8 @@ export const singleUser = {
   },
   chart: {
     dataKeys: [
-      { name: "visits", color: "#82ca9d" },
-      { name: "clicks", color: "#8884d8" },
+      { name: "visits", color: "#27cdf2" },
+      { name: "clicks", color: "#c0355f" },
     ],
     data: [
       {
@@ -649,8 +649,8 @@ export const singleProduct = {
   },
   chart: {
     dataKeys: [
-      { name: "visits", color: "#82ca9d" },
-      { name: "orders", color: "#8884d8" },
+      { name: "visits", color: "#27cdf2" },
+      { name: "clicks", color: "#c0355f" },
     ],
     data: [
       {
