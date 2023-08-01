@@ -1,5 +1,5 @@
 import { GridColDef } from "@mui/x-data-grid";
-import "./add.scss";
+import "./addUserModal.scss";
 
 type Props = {
   slug: string;
@@ -7,7 +7,7 @@ type Props = {
   setOpen: React.Dispatch<React.SetStateAction<boolean>>;
 };
 
-const Add = (props: Props) => {
+const AddUserModal = (props: Props) => {
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     props.setOpen(false);
@@ -35,4 +35,4 @@ const Add = (props: Props) => {
   );
 };
 
-export default Add;
+export default AddUserModal;
