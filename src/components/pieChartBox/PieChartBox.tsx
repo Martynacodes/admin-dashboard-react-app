@@ -1,18 +1,11 @@
 import { Cell, Pie, PieChart, ResponsiveContainer, Tooltip } from "recharts";
 import "./pieChartBox.scss";
 
-// const data = [
-//   { name: "Mobile", value: 400, color: "#0088FE" },
-//   { name: "Desktop", value: 300, color: "#00C49F" },
-//   { name: "Laptop", value: 300, color: "#FFBB28" },
-//   { name: "Tablet", value: 200, color: "#FF8042" },
-// ];
-
 const data = [
-  { name: "Mobile", value: 400, color: "#27cdf2" },
-  { name: "Desktop", value: 300, color: "#eaf205" },
-  { name: "Laptop", value: 300, color: "#01235D" },
-  { name: "Tablet", value: 200, color: "#c0355f" },
+  { name: "Mobile", value: 200, color: "#27cdf2" },
+  { name: "Desktop", value: 200, color: "#eaf205" },
+  { name: "Laptop", value: 350, color: "#01235D" },
+  { name: "Tablet", value: 120, color: "#c0355f" },
 ];
 const PieChartBox = () => {
   return (

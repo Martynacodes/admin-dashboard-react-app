@@ -169,7 +169,7 @@ export const topDealUsers = [
 
 export const chartBoxUser = {
   color: "#eaf205",
-  icon: "/conversionIcon.svg",
+  icon: "/rombLogo.svg",
   title: "All Users",
   number: "10.537",
   dataKey: "users",
@@ -187,7 +187,7 @@ export const chartBoxUser = {
 
 export const chartBoxProduct = {
   color: "#27cdf2",
-  icon: "/productIcon.svg",
+  icon: "/productsblue.svg",
   title: "All Products",
   number: "315",
   dataKey: "products",
@@ -203,8 +203,8 @@ export const chartBoxProduct = {
   ],
 };
 export const chartBoxRevenue = {
-  color: "#eaf205",
-  icon: "/conversionIcon.svg",
+  color: "#c0355f",
+  icon: "/overallratio.svg",
   title: "Overall Revenue",
   number: "$48.654",
   dataKey: "revenue",
@@ -220,8 +220,8 @@ export const chartBoxRevenue = {
   ],
 };
 export const chartBoxConversion = {
-  color: "#27cdf2",
-  icon: "/productIcon.svg",
+  color: "#0798f2",
+  icon: "/blueromb.svg",
   title: "Overall Ratio",
   number: "2.6",
   dataKey: "ratio",
