@@ -1,7 +1,7 @@
 import "./users.scss";
 import { userRows } from "../../data";
 import AddUserModal from "../../components/addModal/AddUserModal";
-import DataTable from "../../components/dataTable/dataTable";
+import DataTable from "../../components/dataTable/DataTable";
 import { GridColDef } from "@mui/x-data-grid";
 import { useState } from "react";
 
