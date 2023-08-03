@@ -4,7 +4,7 @@ import AddUserModal from "../../components/addModal/AddUserModal";
 import DataTable from "../../components/dataTable/DataTable";
 import { GridColDef } from "@mui/x-data-grid";
 import { useState } from "react";
-
+// import { useQuery } from "@tanstack/react-query";
 const columns: GridColDef[] = [
   { field: "id", headerName: "ID", width: 90 },
   {
@@ -54,13 +54,27 @@ const columns: GridColDef[] = [
 ];
 const Users = () => {
   const [open, setOpen] = useState(false);
+  // Test the API
+  // const { isLoading, data } = useQuery({
+  //   queryKey: ["allusers"],
+  //   queryFn: () =>
+  //     fetch("http://localhost:8800/api/users").then((res) => res.json()),
+  // });
+
   return (
     <div className="users">
       <div className="info">
         <h1>Users</h1>
         <button onClick={() => setOpen(true)}>Add New User</button>
       </div>
+      {/* {isLoading ? (
+        "Loading..."
+      ) : (
+        <DataTable slug="users" columns={columns} rows={data} />
+      )} */}
+
       <DataTable slug="users" columns={columns} rows={userRows} />
+
       {open && <AddUserModal slug="user" columns={columns} setOpen={setOpen} />}
     </div>
   );
