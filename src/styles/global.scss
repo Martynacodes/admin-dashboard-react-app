@@ -4,6 +4,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+
+  // @include sm {
+  //   background-color: $main-bg;
+  // }
 }
 
 a {
@@ -19,6 +23,10 @@ a {
 
 .container {
   display: flex;
+
+  @include sm {
+    width: 100%;
+  }
 }
 
 .menuContainer {
@@ -29,6 +37,17 @@ a {
   @include lg {
     width: max-content;
   }
+
+  @include sm {
+    padding: 5px 5px;
+  }
+}
+
+.navbar {
+  @include sm {
+    width: 100%;
+    background-color: $main-bg;
+  }
 }
 
 .contentContainer {
@@ -36,4 +55,9 @@ a {
   padding: 5px 20px;
   width: 100%;
   background-color: $main-bg;
+
+  @include sm {
+    padding-left: 10px;
+    width: max-content;
+  }
 }
