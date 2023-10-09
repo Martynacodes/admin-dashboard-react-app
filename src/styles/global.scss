@@ -61,12 +61,3 @@ a {
     width: max-content;
   }
 }
-
-
-.home .box{
-
-  @include sm {
-  padding: 4px;
-  }
-  
-}
