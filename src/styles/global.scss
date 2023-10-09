@@ -62,3 +62,11 @@ a {
   }
 }
 
+
+.home .box{
+
+  @include sm {
+  padding: 4px;
+  }
+  
+}
